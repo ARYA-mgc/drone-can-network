@@ -1,0 +1,27 @@
+# Build output
+build/
+Debug/
+Release/
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# IDE files
+.project
+.cproject
+.settings/
+*.launch
+STM32CubeIDE/.metadata/
+
+# Object files
+*.o
+*.d
+*.su
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
