@@ -5,7 +5,6 @@ Two STM32-based drones on a shared CAN bus. Drone A leads. Drone B follows in fo
 Real-time position sharing, priority-based messaging, automatic fault detection.
 
 ---
-
 ## What's in here
 
 ```
