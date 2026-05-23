@@ -50,8 +50,8 @@ always win without collision or data loss.
 
 ```
 STM32 (Drone A)                     STM32 (Drone B)
-   CAN1_TX ──► TJA1050 ──┐   ┌── TJA1050 ◄── CAN1_TX
-   CAN1_RX ◄── TJA1050 ──┤   ├── TJA1050 ──► CAN1_RX
+    CAN1_TX ──► TJA1050 ──┐   ┌── TJA1050 ◄── CAN1_TX
+    CAN1_RX ◄── TJA1050 ──┤   ├── TJA1050 ──► CAN1_RX
                           │   │
                     ┌─────┴───┴─────┐
              [120Ω] │  CAN-H CAN-L  │ [120Ω]
